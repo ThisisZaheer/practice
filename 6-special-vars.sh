@@ -4,3 +4,4 @@ echo "All Variables:$@"
 
 echo "No.of Variables:$#"
 
+echo "Present Working Directory:$PWD"
