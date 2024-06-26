@@ -14,6 +14,6 @@ echo "Hostname:$HOSTNAME"
 
 echo "Which User running the script:$USER"
 
-echo Process-ID of Current Shell-Script:$$
+echo "Process-ID of Current Shell-Script:$$"
 
-echo "Process-ID of last background (or)executed command:$!"
+echo "Process-ID of last background:$!"
