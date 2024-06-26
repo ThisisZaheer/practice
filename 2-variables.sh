@@ -1,5 +1,6 @@
 #!/bin/bash
 
-shaik:: Assalamu alaikum syed, how are you?
-syed:: Valaikum assalam shaik, i am fine, how is your work?
-shaik:: it's good syed, i am started learning DevOps with AWS Course
+echo "shaik:: Assalamu alaikum mohammed, how are you?"
+echo "mohammed:: Valaikum assalam shaik, i am good, how are you?"
+echo "shaik:: i am also good, i heard that you are learning DevOps Course"
+echo "mohammed:: yes i am learning DevOps with AWS Course to enhance my skills"
