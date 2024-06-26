@@ -1,6 +1,6 @@
 #!/bin/bash
 
-number=10
+number=152
 
 if [ $number -gt 10 ]
 then 
