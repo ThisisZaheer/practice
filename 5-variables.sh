@@ -8,4 +8,4 @@ echo "Please enter you passkey"
 
 read PASSWORD
 
-echo "email: , passkey:"
+echo "email:${MAIL} , passkey:${PASSWORD}"
