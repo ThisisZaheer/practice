@@ -1,7 +1,7 @@
 #!/bin/bash
 
-name1=Zaheer
-name2=Owais
+name1=Dad
+name2=Son
 
 echo "${name1}:: Assalamu alaikum ${name2}, how are you?"
 echo "${name2}:: Valaikum assalam ${name1}, i am good, how are you?"
