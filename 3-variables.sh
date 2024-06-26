@@ -3,7 +3,7 @@
 name1=shaik
 name2=mohammed
 
-echo "shaik:: Assalamu alaikum mohammed, how are you?"
-echo "mohammed:: Valaikum assalam shaik, i am good, how are you?"
-echo "shaik:: i am also good, i heard that you are learning DevOps Course"
-echo "mohammed:: yes i am learning DevOps with AWS Course to enhance my skills"
+echo "${name1}:: Assalamu alaikum ${name2}, how are you?"
+echo "${name2}:: Valaikum assalam ${name1}, i am good, how are you?"
+echo "${name1}:: i am also good, i heard that you are learning DevOps Course"
+echo "${name2}:: yes i am learning DevOps with AWS Course to enhance my skills"
