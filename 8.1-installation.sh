@@ -14,7 +14,7 @@ else
    echo "You are a Super-User"
 fi
 
-dnf install mysql -y
+dnf install mysql55 -y
 
 if [ $? -ne 0 ]
 then
