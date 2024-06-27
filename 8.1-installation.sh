@@ -24,7 +24,7 @@ else
    echo -e "Installation of Mysql is$GREEN Success $NOCOLOR"
 fi
 
-dnf install git -y
+dnf install gitlab -y
 
 if [ $? -ne 0 ]
 then
