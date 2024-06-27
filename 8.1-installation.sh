@@ -14,7 +14,7 @@ else
    echo "You are a Super-User"
 fi
 
-dnf install mysql55 -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]
 then
@@ -22,4 +22,14 @@ then
    exit 1
 else
    echo -e "Installation of Mysql is $GREEN Success $NOCOLOR"
+fi
+
+dnf install git -y
+
+if [ $? -ne 0 ]
+then
+  echo "Installation of git is $RED Failure $NOCOLOR"
+  exit 0
+else
+  echo "Installation of git is $GREEN Success $NOCOLOR"
 fi
