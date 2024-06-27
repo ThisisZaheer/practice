@@ -4,6 +4,7 @@ USERID=$(id -u)
 
 RED="\e[31m"
 NOCOLOR="\e[0m"
+GREEN="\e[36m"
 
 if [ $USERID -ne 0 ]
 then 
