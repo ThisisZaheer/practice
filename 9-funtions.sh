@@ -3,9 +3,9 @@
 USERID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
-$R="\e[31m"
-$G="\e[32m"
-$N="\e[0m"
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
 
 if [ $USERID -ne 0 ]
 then
