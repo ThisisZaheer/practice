@@ -26,7 +26,7 @@ validate(){
     then
         echo -e "$2 is$R Failed $N"
     else 
-        echo -e "$2 is$R Success $N"
+        echo -e "$2 is$Y Success $N"
     fi
 }
 
