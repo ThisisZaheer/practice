@@ -20,3 +20,18 @@ then
 else
    echo -e "$M You are a Super-User $N"
 fi
+
+validate(){
+    if [ $2 -ne 0 ]
+    then
+        echo -e "$2 is$R Failed $N"
+    else 
+        echo -e "$2 is$R Success $N"
+    fi
+}
+
+dnf install nginx -y
+validate $? "Installing nginx"
+
+dnf install gcc -y
+validate $? "Installing gcc"
