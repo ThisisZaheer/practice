@@ -30,8 +30,8 @@ validate(){
     fi
 }
 
-dnf install nginx -y
+dnf install nginx -y &>>$LOGFILE
 validate $? "Installing nginx"
 
-dnf install gcc -y
+dnf install gcc -y &>>$LOGFILE
 validate $? "Installing gcc"
