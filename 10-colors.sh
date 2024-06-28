@@ -18,7 +18,7 @@ then
    echo -e "$C Please run this script with root access $N"
    exit 1
 else
-   echo -e "$M You are a Super-User $N"
+   echo -e "$Y You are a Super-User $N"
 fi
 
 validate(){
@@ -26,7 +26,7 @@ validate(){
     then
         echo -e "$2 is$R Failed $N"
     else 
-        echo -e "$2 is$Y Success $N"
+        echo -e "$2 is$G Success $N"
     fi
 }
 
