@@ -5,7 +5,7 @@ do
   echo $i
 done
 
-for i in {991..1002} 
+for i in {101..1002} 
 do 
   echo $i
 done
