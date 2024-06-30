@@ -9,3 +9,8 @@ for i in {101..1002}
 do 
   echo $i
 done
+
+for i in $@
+do
+  echo $i
+done
