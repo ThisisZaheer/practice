@@ -20,3 +20,20 @@ then
 else
     echo -e "$Y You are a Super-User $N"
 fi
+
+validate(){
+    if [ $1 -ne 0 ]
+    then
+       echo -e "$2 is--> $R Failed $N"
+    else
+       echo -e "$2 is--> $M Success $N"
+    fi
+}
+
+dnf install git -y
+validate $? "Installing git"
+
+dnf installl docker -y
+validate $? "Installing docker"
+
+
