@@ -24,13 +24,13 @@ fi
 validate(){
     if [ $1 -ne 0 ]
     then
-       echo -e "$2 is--> $R Failed $N"
+       echo -e "$2 is-->$R Failed $N"
     else
-       echo -e "$2 is--> $G Success $N"
+       echo -e "$2 is-->$G Success $N"
     fi
 }
 
-dnf install gitt -y &>>$LOGFILE
+dnf install git -y &>>$LOGFILE
 validate $? "Installing git"
 
 dnf install docker -y &>>$LOGFILE
