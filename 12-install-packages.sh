@@ -15,7 +15,7 @@ N="\e[0m"
 
 if [ $USERID -ne 0 ]
 then
-    echo -e "$C Please run this script with root acess $N"
+    echo -e "$R Please run this script with root acess $N"
     exit 1
 else
     echo -e "$Y You are a Super-User $N"
