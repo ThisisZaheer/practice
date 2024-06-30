@@ -30,7 +30,7 @@ validate(){
     fi
 }
 
-dnf install git -y &>>$LOGFILE
+dnf install gitt -y &>>$LOGFILE
 validate $? "Installing git"
 
 dnf install docker -y &>>$LOGFILE
