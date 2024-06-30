@@ -26,14 +26,14 @@ validate(){
     then
        echo -e "$2 is--> $R Failed $N"
     else
-       echo -e "$2 is--> $M Success $N"
+       echo -e "$2 is--> $G Success $N"
     fi
 }
 
-dnf install git -y
+dnf install git -y &>>$LOGFILE
 validate $? "Installing git"
 
-dnf install docker -y
+dnf install docker -y &>>$LOGFILE
 validate $? "Installing docker"
 
 
