@@ -33,7 +33,7 @@ validate(){
 dnf install git -y
 validate $? "Installing git"
 
-dnf installl docker -y
+dnf install docker -y
 validate $? "Installing docker"
 
 
