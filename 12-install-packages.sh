@@ -30,6 +30,20 @@ validate(){
     fi
 }
 
+for i in $@
+do
+  echo "package to install:$i"
+  dnf list installed $i &>>LOGFILE
+  if [ $i -eq 0 ]
+   then 
+     echo -e "$i already installed.. $C SKIP $N"
+   else
+    dnf install $i -y &>>LOGFILE
+    validate $? "Installation of $i"
+    fi
+done
+
+
 dnf install git -y &>>$LOGFILE
 validate $? "Installing git"
 
